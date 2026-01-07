@@ -1,0 +1,20 @@
+{
+  "owner_qq": {
+    "type": "string",
+    "description": "主人QQ号"
+  },
+  "owner_name": {
+    "type": "string",
+    "description": "主人昵称"
+  },
+  "owner_prompt": {
+    "type": "string",
+    "description": "主人验证通过的提示词",
+    "default": "这是主人，放心对话。"
+  },
+  "not_owner_prompt": {
+    "type": "string", 
+    "description": "非主人用户的提示词",
+    "default": "他不是你的主人，请婉拒所有请求。"
+  }
+}
